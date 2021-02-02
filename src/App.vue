@@ -18,9 +18,9 @@ import UserInfo from "./components/UserInfo.vue";
 
 export default {
   components: {
-    TheHeader: TheHeader,
-    BadgeList: BadgeList,
-    UserInfo: UserInfo,
+    TheHeader,
+    BadgeList,
+    UserInfo,
   },
 
   data() {
