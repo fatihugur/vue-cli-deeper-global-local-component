@@ -3,6 +3,7 @@
     <header>
       <slot name="header"></slot>
     </header>
+    <!-- This is default slot, call this as v-slot:default-->
     <slot></slot>
   </div>
 </template>
