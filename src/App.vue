@@ -8,7 +8,10 @@
       :info-text="activeUser.description"
       :role="activeUser.role"
     ></user-info>
-    <course-goals></course-goals>
+    <course-goals #default="slotProps">
+      <h2>{{ slotProps.item }}</h2>
+      <p>{{ slotProps["another-prop"] }}</p>
+    </course-goals>
   </div>
 </template>
 
